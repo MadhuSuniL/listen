@@ -1,0 +1,237 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    padding: 2%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 2px black;
+    background-color: yellow;
+    background-color: yellow;
+    transform: translateX(-50%) translateY(-50%)
+}
+/* body{
+    background-color: black;
+} */
+.center input{
+    border-radius: 50px;
+    width: 80%;
+    box-shadow: 2px 3px 4px 2px black;
+    margin-left: 2%;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 40px;
+    
+}
+
+.head{
+    background-color: yellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 3px 4px 2px black;
+    border: 2px outset yellow;
+}
+
+.result{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    height: auto;
+
+}
+
+.result h3{
+    margin: 2%;
+    font-family: monospace;
+}
+
+.page{
+    width: 100%;
+    padding: 2%;
+    height: 220px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 3px 4px 2px black;
+    border: 3px outset black;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.page:hover{
+    width: 100%;
+    padding: 2%;
+    height: 220px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 8px 4px 2px black;
+    border: 3px outset black;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+
+.play{
+    width: 50px;
+    height: 50px;
+}
+
+.page button{
+    background-color: transparent;
+    border:  none;
+}
+.page button:hover .play{
+    width: 45px;
+    height: 45px;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+
+}
+
+.b:hover{
+    box-shadow: 2px 3px 2px 1px black;
+}
+
+.b:active{
+    box-shadow: 2px 3px 2px 1px grey;
+}
+
+.controlls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 85%;
+    left: 0%;
+    width: 100%;
+    padding: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 2px black;
+    background-color: yellow;
+    background-color: yellow;
+    /* transform: translateX(-50%) translateY(-50%) */
+}
+
+
+
+@media only screen and (max-width: 1080px){
+    .center , .player{
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        width: 95%;
+        padding: 2%;
+        border-radius: 50px;
+        box-shadow: 2px 3px 4px 2px black;
+        background-color: yellow;
+        transform: translateX(-50%) translateY(-50%)
+    }
+    .center h3{
+        font-size: 57px;
+    }
+    .center input{
+        border-radius: 50px;
+        width: 80%;
+        box-shadow: 2px 3px 4px 2px black;
+        margin-left: 2%;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        font-size: 60px;
+        margin-bottom: 5%;
+    }
+
+    .head{
+        background-color: yellow;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 2px 3px 4px 2px black;
+        border: 2px outset yellow;
+    }
+    .head img{
+        width: 200px;
+        height: inherit;
+    }
+    
+    .result{
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .result h3{
+        margin: 2%;
+        font-family: monospace;
+        font-size: 70px;
+    }
+    
+    .page{
+        width: 100%;
+        padding: 2%;
+        height: auto;
+        background-color: yellow;
+        color: black;
+        box-shadow: 2px 3px 4px 2px black;
+        border: 3px outset black;
+        border-radius: 30px;
+        margin-bottom: 3%;
+    }
+
+    .page:hover{
+        width: 100%;
+        padding: 2%;
+        height: auto;
+        background-color: yellow;
+        color: black;
+        box-shadow: 5px 9px 4px 16px black;
+        border: 3px outset black;
+        border-radius: 30px;
+    }
+
+    .page h2{
+        margin-bottom: 2%;
+        font-size: 75px;
+    }
+    
+    .page button{
+        margin: 2%;
+        font-size: 60px;
+    }
+    .page p{
+        font-size: 60px;
+    }
+    .play{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .page button{
+        background-color: transparent;
+        border:  none;
+    }
+    .page button:hover .play{
+        width: 95px;
+        height: 95px;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.2s;
+    
+    }
+
+    .player h1{
+        font-size: 70px;
+    }
+
+}
